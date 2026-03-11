@@ -6,7 +6,7 @@ Arxiv: https://arxiv.org/abs/2204.09962
 
 IEEE Xplore: https://ieeexplore.ieee.org/document/9749880
 
-:rocket:  :rocket:  :rocket: **News**:
+:rocket: :rocket: :rocket: **News**:
 
 - **May. 19, 2022**: We release the data of the FF-Database, please see section 1.1 for the terms of use.
 
@@ -58,7 +58,7 @@ The ablation study is as:
 
 ### 3.1 File Structure
 
-Some files are not included in the current implementation since they are too large. The network architectures can be found in the ``code`` folder.
+Some files are not included in the current implementation since they are too large. The network architectures can be found in the `code` folder.
 
 ```
 code
@@ -103,7 +103,7 @@ code
 │
 └───AttGAN (please refer to AttGAN official webpage)
 │   │   ...
-│   
+│
 ```
 
 ### 3.2 Required Libraries
@@ -155,7 +155,7 @@ cd babymapping_1219
 python main.py
 ```
 
-If you want to change the input images, see lines 38-39 of **validation.yaml**: https://github.com/zhaoyuzhi/ChildPredictor/blob/main/code/babymapping_1219/yaml/yaml/validation.yaml#L38-L39
+If you want to change the input images, see lines 38-39 of **validation.yaml**: https://github.com/bh2619-k/child-face-forecast/blob/main/code/babymapping_1219/yaml/yaml/validation.yaml#L38-L39
 
 ### 3.4 Training
 
